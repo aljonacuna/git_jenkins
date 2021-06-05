@@ -2,6 +2,7 @@ class GitCommand {
     constructor(working_directory){
         this.working_directory = working_directory;
     }
+    //First commit
     //Command: git init 
     init(){
         this.staging = [];
